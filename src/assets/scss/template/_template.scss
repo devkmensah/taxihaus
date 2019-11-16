@@ -19,6 +19,7 @@ body,
       padding-top: 20px;
       padding-bottom: 20px;
       padding-left: 20px;
+
       .haus {
         color: #015379;
       }
@@ -42,12 +43,14 @@ body,
       color: $secondary-color;
       font-size: 40px;
     }
+
     h2 {
       font-weight: 600;
       color: $secondary-color;
       padding-top: 5px;
       font-size: 25px;
     }
+
     p {
       padding-top: 25px;
       padding-left: 50px;
@@ -66,6 +69,7 @@ body,
     .columns {
       padding-top: 60px;
       padding-bottom: 60px;
+
       a {
         color: #ffffff;
         background-color: $primary-color;
@@ -78,6 +82,7 @@ body,
     .columns {
       padding-top: 0px;
       padding-bottom: 60px;
+
       a {
         color: #ffffff;
         background-color: $primary-color;
@@ -85,6 +90,7 @@ body,
       }
     }
   }
+
   .simple {
     .columns {
       h2 {
@@ -95,10 +101,9 @@ body,
         padding-left: 20px;
         padding-right: 20px;
       }
+
       p {
-        padding-top: 25px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 25px 50px 80px;
         line-height: 1.6;
         hyphens: none;
         font-size: 16px;
@@ -109,25 +114,33 @@ body,
   }
 
   .options {
+    padding-top: 20px !important;
+
     .columns {
+
+
       .cars-first {
+
         .columns {
-          padding-top: 50px;
           padding-bottom: 80px;
+
           a {
             img {
               width: 150px;
             }
           }
+
           h2 {
             font-weight: 600;
             color: $secondary-color;
             padding-top: 10px;
             font-size: 16px;
           }
+
           .eco {
             padding-top: 17px;
           }
+
           p {
             line-height: 1.6;
             font-size: 16px;
@@ -140,33 +153,40 @@ body,
       .cars-second {
         .columns {
           padding-bottom: 80px;
+
           .guide {
             font-size: 60px;
           }
+
           a {
             img {
               width: 150px;
             }
           }
+
           h2 {
             font-weight: 600;
             color: $secondary-color;
             padding-top: 10px;
             font-size: 16px;
           }
+
           .guide {
             padding-top: 20px;
             padding-right: 20px;
           }
+
           .faqs {
             padding-top: 28px;
           }
+
           p {
             line-height: 1.6;
             font-size: 16px;
             color: $paragraph;
             font-weight: 400;
           }
+
           .highlight {
             color: $primary-color;
           }
@@ -174,6 +194,7 @@ body,
       }
     }
   }
+
   .appreciation {
     .columns {
       p {
@@ -193,12 +214,15 @@ body,
         a {
           display: inline-block;
           padding: 10px;
+
           .you {
             width: 36px;
           }
+
           .twitt {
             width: 36px;
           }
+
           img {
             padding-top: 50px;
             width: 30px;
@@ -219,6 +243,7 @@ body,
         font-weight: 600;
         padding-top: 50px;
         padding-bottom: 20px;
+
         .haus {
           color: #015379;
         }
@@ -242,13 +267,16 @@ body,
     background: #f1f1f1;
     background-color: #f1f1f1;
     margin-bottom: 50px;
+
     .columns {
       .p-top {
         padding-top: 25px;
       }
+
       .p-bottom {
         padding-bottom: 25px;
       }
+
       p {
         font-size: 13px;
         color: $paragraph;
@@ -257,269 +285,3 @@ body,
     }
   }
 }
-
-// @media only screen and (max-width: #{$global-breakpoint}) {
-//   body,
-//   html,
-//   .body {
-//     background: #f3f3f3 !important;
-//     background-color: #f3f3f3 !important;
-//   }
-
-//   .header {
-//     .columns {
-//       h1 {
-//         color: $primary-color;
-//         font-size: 23px;
-//         font-weight: 600;
-//         padding-top: 18px;
-//         padding-bottom: 18px;
-//         padding-left: 20px;
-//         .haus {
-//           color: #015379;
-//         }
-//       }
-//     }
-//   }
-
-//   .taxi {
-//     .columns {
-//       .taxi-cab {
-//         width: 100%;
-//         // height: 200px;
-//       }
-//     }
-//   }
-
-//   .text {
-//     .columns {
-//       h1 {
-//         padding-top: 33px;
-//         font-weight: 800;
-//         color: $secondary-color;
-//         font-size: 38px;
-//         // padding-left: 20px !important;
-//         // padding-right: 20px !important;
-//       }
-//       h2 {
-//         font-weight: 600;
-//         color: $secondary-color;
-//         padding-top: 3px;
-//         font-size: 23px;
-//       }
-//       p {
-//         padding-top: 23px;
-//         padding-left: 50px;
-//         padding-right: 50px;
-//         line-height: 1.6;
-//         hyphens: none;
-//         font-size: 14px;
-//         color: $paragraph;
-//         font-weight: 400;
-//       }
-//     }
-//   }
-
-//   .service {
-//     .button-first {
-//       .columns {
-//         padding: 58px;
-//         a {
-//           color: #ffffff;
-//           background-color: $primary-color;
-//           background: $primary-color;
-//           padding: 20px 40px;
-//           font-size: 18px;
-//           // border-radius: 50px;
-//         }
-//       }
-//     }
-
-//     .button-second {
-//       .columns {
-//         padding: 58px;
-//         a {
-//           color: #ffffff;
-//           background-color: $primary-color;
-//           background: $primary-color;
-//           padding: 20px 40px;
-//           font-size: 18px;
-//           // border-radius: 50px;
-//         }
-//       }
-//     }
-//     .simple {
-//       .columns {
-//         h2 {
-//           font-weight: 600;
-//           color: $secondary-color;
-//           padding-top: 3px;
-//           font-size: 23px;
-//           padding-left: 20px;
-//           padding-right: 20px;
-//         }
-//         p {
-//           padding-top: 23px;
-//           padding-left: 50px;
-//           padding-right: 50px;
-//           padding-bottom: 80px;
-//           line-height: 1.6;
-//           hyphens: none;
-//           font-size: 14px;
-//           color: $paragraph;
-//           font-weight: 400;
-//         }
-//       }
-//     }
-
-//     .options {
-//       .columns {
-//         .cars-first {
-//           .columns {
-//             padding-top: 14px;
-//             padding-bottom: 81px;
-//             a {
-//               img {
-//                 width: 150px;
-//               }
-//             }
-//             h2 {
-//               font-weight: 600;
-//               color: $secondary-color;
-//               padding-top: 8px;
-//               font-size: 14px;
-//             }
-//             .eco {
-//               padding-top: 15px;
-//             }
-//             p {
-//               line-height: 1.6;
-//               font-size: 14px;
-//               color: $paragraph;
-//               font-weight: 400;
-//             }
-//           }
-//         }
-
-//         .cars-second {
-//           .columns {
-//             padding-top: 14px;
-//             padding-bottom: 81px;
-//             .guide {
-//               font-size: 60px;
-//             }
-//             a {
-//               img {
-//                 width: 150px;
-//               }
-//             }
-//             h2 {
-//               font-weight: 600;
-//               color: $secondary-color;
-//               padding-top: 8px;
-//               font-size: 14px;
-//             }
-//             .guide {
-//               padding-top: 18px;
-//               padding-right: 18px;
-//             }
-//             .faqs {
-//               padding-top: 18px;
-//             }
-//             p {
-//               line-height: 1.6;
-//               font-size: 14px;
-//               color: $paragraph;
-//               font-weight: 400;
-//             }
-//             .highlight {
-//               color: $primary-color;
-//             }
-//           }
-//         }
-//       }
-//     }
-//     .appreciation {
-//       .columns {
-//         p {
-//           line-height: 1.6;
-//           font-size: 12px;
-//           color: $paragraph;
-//           font-weight: 400;
-//         }
-//       }
-//     }
-//   }
-
-//   .footer {
-//     .columns {
-//       .icons {
-//         .columns {
-//           a {
-//             display: inline-block;
-//             padding: 10px;
-//             .you {
-//               width: 34px;
-//             }
-//             .twitt {
-//               width: 34px;
-//             }
-//             img {
-//               padding-top: 50px;
-//               width: 28px;
-//               display: inline-block;
-//             }
-//           }
-//         }
-//       }
-//     }
-
-//     .footer-logo {
-//       border-bottom: 1px solid #c4c7c9;
-
-//       .columns {
-//         h1 {
-//           color: $primary-color;
-//           font-size: 23px;
-//           font-weight: 600;
-//           padding-top: 50px;
-//           padding-bottom: 20px;
-//           .haus {
-//             color: #015379;
-//           }
-//         }
-//       }
-//     }
-
-//     .rights {
-//       .columns {
-//         p {
-//           padding-top: 10px;
-//           padding-bottom: 10px;
-//           font-size: 11px;
-//           color: $paragraph;
-//           font-weight: 400;
-//         }
-//       }
-//     }
-
-//     .address {
-//       background: #f1f1f1;
-//       background-color: #f1f1f1;
-//       margin-bottom: 50px;
-//       .columns {
-//         .p-top {
-//           padding-top: 25px;
-//         }
-//         .p-bottom {
-//           padding-bottom: 25px;
-//         }
-//         p {
-//           font-size: 11px;
-//           color: $paragraph;
-//           font-weight: 400;
-//         }
-//       }
-//     }
-//   }
-// }
